@@ -1,0 +1,1 @@
+﻿$(function(){$(".qdesc").css("display","none"),$(".qtitle").each(function(a){$(this).click(function(){$(this).hasClass("open")?($(this).next("p").slideUp(),$(this).removeClass("open")):($(this).next("p").slideDown(),$(this).addClass("open"))})})});
